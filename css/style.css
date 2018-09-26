@@ -1,0 +1,58 @@
+
+.logo{
+    display: flex;
+    color: white;
+}
+.logo i{
+    font-size: 19px;
+    line-height: 25px;
+}
+.bars-icon{
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(191, 190, 190);
+    border: 1px solid rgb(191, 190, 190);
+    border-radius: 5px;
+}
+.jumbotron{
+    text-align: center;
+    background-color: #fff;
+}
+.jumbotron p{
+    margin-left: 245px;
+    margin-right: 245px;
+}
+.jumbotron h1{
+font-weight: lighter;
+}
+.thumbnails{
+    background-color: #f8f9fa;
+}
+.card-img-top{
+     height: 180px;
+     background-color: #6c757d;
+}
+.card-img-top p{
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.cart-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.cart-link p{
+    font-size: 14px;
+    color: #6c757d;
+}
+.copyright{
+    justify-content: space-between;
+    display: flex;
+}
+.text{
+    color: #6c757d;
+}
