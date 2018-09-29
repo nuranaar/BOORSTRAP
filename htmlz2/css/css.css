@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@font-face{
+    font-family: Mon_Amour;
+    src: url(../font/MonAmourScriptPro.otf);
+}
+
+html{
+    height: 1000px;
+    background-position: top center;
+   background-image: url(../bg/495965eff34eed5.jpg);
+   background-repeat: no-repeat;
+}
+.name{
+    letter-spacing: 10px;
+    line-height: 50px;
+    font-family: 'Mon_Amour';
+    text-align: center;
+    margin-top: 300px;
+    
+}
+.text{
+    line-height:30px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.rtf{
+    letter-spacing: 5px;
+    font-family: 'Mon_Amour';
+    text-align: center;
+  
+}
