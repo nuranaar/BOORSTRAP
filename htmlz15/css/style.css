@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+.popup{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 400px;
+    background: white;
+}
+.item h1{
+    line-height: 200px;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+}

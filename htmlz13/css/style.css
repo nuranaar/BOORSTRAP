@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+}
+.nav{
+    width: 200px;
+    height: 100vh;
+    background-color: #000000;
+    transform: translate(-200px);
+}
+.nav ul{
+    list-style-type: none;
+    color: white;
+    margin-top: 50px;
+    font-size: 24px;
+    opacity: 0;
+}
+.vjuxNav{
+    transform: translate(200px);
+    transition: all .5s;
+    opacity: 1;
+}
+

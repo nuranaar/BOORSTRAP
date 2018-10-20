@@ -1,14 +1,16 @@
-// var sanie = document.querySelector(".sanieEgrebi");
-// var rotate = 90;
+var sanie = document.querySelector(".sanieEgrebi");
 
-// function clockFunc() {
-//     var now = new Date();
-//     var seconds = now.getSeconds();
-//     rotate = 90 + seconds * 6;
-//     sanie.style.transform = "rotate(" + rotate + "deg)";
 
-// }
-// setInterval(clockFunc, 1000);
+
+function clockFunc() {
+    var now = new Date();
+    var seconds = now.getSeconds();
+    var rotate = 90 + seconds * 6;
+    var rotate2 = rotate+6;
+    sanie.style.transform = "rotate(" + rotate2 + "deg)";
+
+}
+setInterval(clockFunc, 1000);
 
 
 

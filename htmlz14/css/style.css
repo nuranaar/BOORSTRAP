@@ -1,0 +1,13 @@
+img{
+    position: relative;
+    width: 800px;
+    margin: 50px;
+}
+.tocka{
+    z-index: 2;
+    position: absolute;
+    background-color: rgb(124, 32, 32);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}

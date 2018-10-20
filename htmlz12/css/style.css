@@ -1,4 +1,4 @@
-/* #clock{
+#clock{
     width: 600px;
     height: 600px;
     position: absolute;
@@ -19,13 +19,16 @@
     left: 50px;
     transform-origin: right center;
     transform: rotate(6deg);
+    transition:all 1s linear;
+    
+
 }
 .box{
     width: 400px;
     height: 400px;
     background-color: black;
     margin: 30px;
-} */
+}
 
 img{
     width: 200px;
